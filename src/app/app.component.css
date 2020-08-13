@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #f59542;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: grey;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: Arial Black;
+}
+
+.options-img {
+    width: 50px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.settings-img {
+    width: 50px;
+    height: 50px;
+    padding-right: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f59542;
+    margin-bottom: 0;
+}
